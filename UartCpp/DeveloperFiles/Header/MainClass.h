@@ -9,6 +9,6 @@ public:
 	Uart uart;
 	Led led;
 	
-	void RepeatingLoop();
+	void RepeatingLoop(int delay);
 	
 };

@@ -2,14 +2,16 @@
 #include "./DeveloperFiles/Header/MainClass.h"
 #include "string.h"
 MainClass *p;
+int delayTime;
 extern "C" void Looper()
 {
 	
 	p = new  MainClass();
+	delayTime = 50;
 	
 	while (1)
 	{		
-		p->RepeatingLoop();		
+		p->RepeatingLoop(delayTime);		
 	}
 }
 
@@ -24,7 +26,8 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
 		const char *Message = "External Interrupt On Switch1 Detected\r\n";
 		size_t length = strlen(Message) + 1;	
-		
+	delayTime = (delayTime == 50) ? 1000 : 50;
+	
 	p->uart.SendData((uint8_t *)Message,length );
 }
 
