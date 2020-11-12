@@ -5,9 +5,10 @@ class MainClass
 {
 	
 public:
+	MainClass();
 	Uart uart;
 	Led led;
-	void Init();
+	
 	void RepeatingLoop();
 	
 };
