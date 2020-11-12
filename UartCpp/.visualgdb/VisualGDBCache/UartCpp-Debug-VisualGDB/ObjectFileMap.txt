@@ -1,0 +1,1 @@
+G:\Stm\Projects\VisualGdb\UartCpp\UartCpp\startup_stm32f103xb.s|CMakeFiles/UartCpp.dir/startup_stm32f103xb.s.obj

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1082
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{803FD0C6-D64E-4E16-9DC3-1DAEC859A3D2}") = "UartCpp", "UartCpp\UartCpp.vgdbcmake", "{872C7D5F-4E41-4704-9CE3-8FB09EE15BFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		MinSizeRel|VisualGDB = MinSizeRel|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+		RelWithDebInfo|VisualGDB = RelWithDebInfo|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{872C7D5F-4E41-4704-9CE3-8FB09EE15BFC}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{872C7D5F-4E41-4704-9CE3-8FB09EE15BFC}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{872C7D5F-4E41-4704-9CE3-8FB09EE15BFC}.MinSizeRel|VisualGDB.ActiveCfg = MinSizeRel|VisualGDB
+		{872C7D5F-4E41-4704-9CE3-8FB09EE15BFC}.MinSizeRel|VisualGDB.Build.0 = MinSizeRel|VisualGDB
+		{872C7D5F-4E41-4704-9CE3-8FB09EE15BFC}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{872C7D5F-4E41-4704-9CE3-8FB09EE15BFC}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{872C7D5F-4E41-4704-9CE3-8FB09EE15BFC}.RelWithDebInfo|VisualGDB.ActiveCfg = RelWithDebInfo|VisualGDB
+		{872C7D5F-4E41-4704-9CE3-8FB09EE15BFC}.RelWithDebInfo|VisualGDB.Build.0 = RelWithDebInfo|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B500E50F-70BC-48D5-A40C-32C564E65AC4}
+	EndGlobalSection
+EndGlobal
